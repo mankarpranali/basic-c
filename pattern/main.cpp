@@ -1,51 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void printPattern(int n){
-  for( int i=0; i<n; i++) {
-    int star1 = 4;
-    // if ( i >= n) {
-    //   star1 = 2*n-i-1;
-    // } else {
-    //   star1 = i+1;
-    // }
-    for( int j=0; j<star1; j++) {
-      // if ( i%2 == 0) {
-        cout<<"*";
-      // } else {
-      //   cout<<"_";
-      // }
-    }
-    // int star2 = 2*n-2*i;
-    // if ( i >= n) {
-    //   star2 = 2*i-2*n+2;
-    // } else {
-    //   star2 = 2*n-2*i-2;
-    // }
-    // for( int j=0; j<star2; j++) {
-    //   cout<<" ";
-    // }
-    // int star3 = 0;;
-    // if ( i >= n) {
-    //   star3 = 2*n-i-1;
-    // } else {
-    //   star3 = i+1;
-    // }
-    // for( int j=0; j<star3; j++) {
-    //   cout<<"*";
-    // }
-    cout<<endl;
-  }
-  // for( int i=0; i<n-1; i++) {
-  //   for( int j=0; j<n-i-1; j++) {
-  //     cout<<"*";
-  //   }
-  //   // for( int j=0; j<2*n-2*i-1; j++) {
-  //   //   cout<<"*";
-  //   // }
-  //   cout<<endl;
-  // }
-}
 void printPattern1(int n){
   for( int i=0; i<n; i++) {
     for( int j=0; j<n; j++) {
